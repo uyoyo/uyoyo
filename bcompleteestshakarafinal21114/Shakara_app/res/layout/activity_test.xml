@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_item_title"
+    android:gravity="center_vertical|center" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/list_item_title"
+        android:src="@drawable/pichom" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="A TechTouch innovation- techtouchng.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/blue"
+        android:typeface="monospace" />
+
+</RelativeLayout>

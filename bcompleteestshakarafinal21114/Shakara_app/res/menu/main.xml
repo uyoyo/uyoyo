@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    <item
+        android:id="@+id/female"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/ic_female"/>
+    
+      <item
+        android:id="@+id/male"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/ic_male"/>
+      <item
+        android:id="@+id/wedding"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/title_activity_wedding"/>
+      
+       <item
+        android:id="@+id/upload"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/upload"/>
+        <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/about"/>
+       <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+       
+
+</menu>
